@@ -206,3 +206,28 @@ button {
     margin: 0 auto;
     display: block;
 }
+
+< !-- Management -->
+
+.management {
+
+}
+
+.management-title {
+font-style: 32px;    
+}
+
+.management-title-part {
+font-weight: 600;
+font-size: 16px;    
+}
+
+.management-text {}
+
+.management-list {}
+
+.management-item {}
+
+.management-subtitle {}
+
+.management-desk {}
