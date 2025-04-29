@@ -20,7 +20,10 @@
   <header class="header">
     <div class="container header-container">
       <nav class="header-nav">
-        <a class="logo" href="./index.html">Product</a>
+        <a class="logo" href="./index.html">
+          <svg class="icon-logo" width="40" height="36">
+            <use href="./image/icons.svg#icon-logo"></use>
+          </svg> Product</a>
         <ul class="nav-list">
           <li><a class="nav-link current" href="">Product</a></li>
           <li><a class="nav-link" href="./customers.html">Customers</a></li>
@@ -61,6 +64,9 @@
             </li>
             <li>
               <button class="hero-btn-watch" type="button">
+                <svg class="hero-btn-watch-icon" width="16" height="18">
+                  <use href="./image/icons.svg#icon-button-cursor"></use>
+                </svg>
                 Watch the Video
               </button>
             </li>
@@ -75,24 +81,45 @@
         <h2 class="product-title">Product was Built Specifically for You</h2>
         <ul class="product-list">
           <li class="product-item">
+            <div class="product-icon-wrap">
+              <svg class="product-icon" width="11" height="18">
+                <use href="./image/icons.svg#icon-product-1"></use>
+              </svg>
+            </div>
             <h3 class="product-subtitle">First click tests</h3>
             <p class="product-text">
               While most people enjoy casino gambling,
             </p>
           </li>
           <li class="product-item">
+            <div class="product-icon-wrap">
+              <svg class="product-icon" width="11" height="18">
+                <use href="./image/icons.svg#icon-product-2"></use>
+              </svg>
+            </div>
             <h3 class="product-subtitle">Design surveys</h3>
             <p class="product-text">
               Sports betting, lottery and bingo playing for the fun
             </p>
           </li>
           <li class="product-item">
+            <div class="product-icon-wrap">
+              <svg class="product-icon" width="11" height="18">
+                <use href="./image/icons.svg#icon-product-3"></use>
+              </svg>
+            </div>
             <h3 class="product-subtitle">Preference tests</h3>
             <p class="product-text">
               The Myspace page defines the individual.
             </p>
           </li>
           <li class="product-item">
+            <div class="product-icon-wrap">
+              <svg class="product-icon" width="11" height="18">
+                <use href="./image/icons.svg#icon-product-4"></use>
+              </svg>
+            </div>
+
             <h3 class="product-subtitle">Five second tests</h3>
             <p class="product-text">
               Personal choices and the overall personality of the person.
@@ -105,53 +132,67 @@
     <!-- Management -->
     <section class="management">
       <div class="container management-container">
-        <h2 class="management-title">
-          <span class="management-title-part">Effortless Validation for</span>Management
-        </h2>
-        <p class="management-text">
-          The Myspace page defines the individual, his or her characteristics,
-          traits, personal choices and the overall personality of the person.
-        </p>
-        <ul class="management-list">
-          <li class="management-item">
-            <h3 class="management-subtitle">Accessory makers</h3>
-            <p class="management-desk">
-              While most people enjoy casino gambling, sports betting, lottery
-              and bingo playing for the fun
-            </p>
-          </li>
-          <li class="management-item">
-            <h3 class="management-subtitle">Alterationists</h3>
-            <p class="management-subtitle-text">
-              If you are looking for a new way to promote your business that
-              won’t cost you more money,
-            </p>
-          </li>
-        </ul>
+        <div class="management-text-wrap">
+
+          <h2 class="management-title">
+            <span class="management-title-part">Effortless Validation for</span>Management
+
+          </h2>
+          <p class="management-text">
+            The Myspace page defines the individual, his or her characteristics,
+            traits, personal choices and the overall personality of the person.
+          </p>
+          <ul class="management-list">
+            <li class="management-item">
+              <h3 class="management-subtitle">Accessory makers</h3>
+              <p class="management-desk">
+                While most people enjoy casino gambling, sports betting, lottery
+                and bingo playing for the fun
+              </p>
+            </li>
+            <li class="management-item">
+              <h3 class="management-subtitle">Alterationists</h3>
+              <p class="management-subtitle-text">
+                If you are looking for a new way to promote your business that
+                won’t cost you more money,
+              </p>
+            </li>
+          </ul>
+        </div>
         <img src="./image/management-img-min.png" alt="document" width="540" />
       </div>
     </section>
     <!-- CUSTOMER SUPPORT -->
-    <section>
+    <section class="customer">
       <div class="container customer-container">
-        <h2><span>Easier decision making for</span>Customer Support</h2>
-        <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall
-          personality of the person.</p>
-        <ul>
-          <li>
-            <p>Never worry about overpaying for your energy again. </p>
-            <button></button>
-          </li>
-          <li>
-            <p>We will only switch you to energy companies that we trust and will treat you right</p>
-            <button></button>
-          </li>
-          <li>
-            <p>We track the markets daily and know where the savings are.</p>
-            <button></button>
-          </li>
-        </ul>
         <img src="./image/support-img-min.png" alt="document" width="540" />
+        <div class="customer-text-wrap">
+
+          <h2 class="customer-title"><span class="customer-title-part">Easier decision making for</span>Customer
+            Support
+          </h2>
+
+          <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the
+            overall
+            personality of the person.</p>
+          <ul class="customer-list">
+            <li>
+              <p class="customer-text">Never worry about overpaying for your energy again. </p>
+              <button class="customer-btn"></button>
+            </li>
+            <li>
+              <p class="customer-text">We will only switch you to energy companies that we trust and will treat you
+                right
+              </p>
+              <button class="customer-btn"></button>
+            </li>
+            <li>
+              <p class="customer-text">We track the markets daily and know where the savings are.</p>
+              <button class="customer-btn"></button>
+            </li>
+          </ul>
+        </div>
+
       </div>
     </section>
     <!-- COLLABORATIVE -->
@@ -186,15 +227,15 @@
             <img src="./image/avatar1.png" alt="people" width="98px" />
             <p>I can take care of your pitch</p>
           </li>
-          <li>
+          <li class="quick-item quick-reverce">
             <img src="./image/avatar2.png" alt="people" width="98px" />
             <p>I can prototype your app</p>
           </li>
-          <li>
+          <li class="quick-item">
             <img src="./image/avatar3.png" alt="people" width="98px" />
             <p>I can take care of your pitch</p>
           </li>
-          <li>
+          <li class="quick-item quick-reverce">
             <img src="./image/avatar4.png" alt="people" width="98px" />
             <p>I can help marketing strategy</p>
           </li>
