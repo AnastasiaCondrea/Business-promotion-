@@ -92,8 +92,8 @@
             </p>
           </li>
           <li class="product-item">
-            <div class="product-icon-wrap">
-              <svg class="product-icon" width="11" height="18">
+            <div class="product-icon-wrap product-icon-wrap-second">
+              <svg class="product-icon" width="18" height="18">
                 <use href="./image/icons.svg#icon-product-2"></use>
               </svg>
             </div>
@@ -103,8 +103,8 @@
             </p>
           </li>
           <li class="product-item">
-            <div class="product-icon-wrap">
-              <svg class="product-icon" width="11" height="18">
+            <div class="product-icon-wrap product-icon-wrap-third ">
+              <svg class="product-icon" width="16" height="18">
                 <use href="./image/icons.svg#icon-product-3"></use>
               </svg>
             </div>
@@ -114,8 +114,8 @@
             </p>
           </li>
           <li class="product-item">
-            <div class="product-icon-wrap">
-              <svg class="product-icon" width="11" height="18">
+            <div class="product-icon-wrap product-icon-wrap-fourth">
+              <svg class="product-icon" width="14" height="18">
                 <use href="./image/icons.svg#icon-product-4"></use>
               </svg>
             </div>
@@ -214,33 +214,43 @@
         </ul>
       </div>
     </section>
-    <!-- QUICK AND EASY -->
-    <section class="quick">
-      <div class="quick quick-container">
-        <h2 class="quick-title">Quick & Easy Process</h2>
-        <p class="quick-text">
+    <!-- QUICK AND EASY PROCESS-->
+    <section class="process">
+      <div class="container process-container">
+        <h2 class="process-title">Quick & Easy Process</h2>
+        <p class="process-text">
           Do you require some help for your project: Conception workshop,
           prototyping, marketing strategy, landing page, Ux/UI?
         </p>
-        <ul class="quick-list">
-          <li class="quick-item">
+        <ul class="process-list">
+          <li class="process-item">
             <img src="./image/avatar1.png" alt="people" width="98px" />
-            <p>I can take care of your pitch</p>
+            <div class="process-desk-wrap">
+              <p class="process-desk">I can take care of your pitch</p>
+            </div>
           </li>
-          <li class="quick-item quick-reverce">
-            <img src="./image/avatar2.png" alt="people" width="98px" />
-            <p>I can prototype your app</p>
+          <li class="process-item process-reverce">
+
+            <div class="process-desk-wrap">
+              <p class="process-desk">I can prototype your app</p>
+            </div> <img src="./image/avatar2.png" alt="people" width="98px" />
           </li>
-          <li class="quick-item">
+          <li class="process-item">
+
+            <div class="process-desk-wrap">
+              <p class="process-desk">I can take care of your pitch</p>
+            </div>
             <img src="./image/avatar3.png" alt="people" width="98px" />
-            <p>I can take care of your pitch</p>
+
           </li>
-          <li class="quick-item quick-reverce">
+          <li class="process-item process-reverce">
             <img src="./image/avatar4.png" alt="people" width="98px" />
-            <p>I can help marketing strategy</p>
+            <div class="process-desk-wrap">
+              <p class="process-desk">I can help marketing strategy</p>
+            </div>
           </li>
         </ul>
-        <button class="quick-btn-watch" type="button">Contact our expert</button>
+        <button class="process-btn-watch" type="button">Contact our expert</button>
       </div>
     </section>
     <!-- CONTENT STRATEGIES -->
@@ -366,22 +376,72 @@
     </section>
 
   </main>
-  <footer>
-    <a class="logo" href="./index.html">Product</a>
-    <p>Resource</p>
-    <ul>
-      <li><a href="">About Us</a></li>
-      <li><a href="">Blog</a></li>
-      <li><a href="">Contact</a></li>
-      <li><a href="">FAQ</a></li>
-    </ul>
-    <p>Legal Stuff</p>
-    <ul>
-      <li><a href="">Disclaimer</a></li>
-      <li><a href="">Financing</a></li>
-      <li><a href="">Privacy Policy</a></li>
-    </ul>
-    <p>Made With Love By Figmaland All Right Reserved</p>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-logo-wrap">
+          <a class="logo logo-footer" href="./index.html">
+            <svg class="icon-logo" width="40" height="36">
+              <use href="./image/icons.svg#icon-logo"></use>
+            </svg> Product</a>
+          <ul class="footer-soc-list">
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link">
+                <svg class="footer-soc-icon" width="24" height="24">
+                  <use href="./image/icons-twoo.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link">
+                <svg class="footer-soc-icon" width="24" height="24">
+                  <use href="./image/icons-twoo.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a href="" class="footer-soc-link">
+                <svg class="footer-soc-icon" width="24" height="24">
+                  <use href="./image/icons-twoo.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-resource-wrap">
+          <p class="footer-title">Resource</p>
+          <ul>
+            <li><a class="footer-link" href="">About Us</a></li>
+            <li><a class="footer-link" href="">Blog</a></li>
+            <li><a class="footer-link" href="">Contact</a></li>
+            <li><a class="footer-link" href="">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-stuff-wrap">
+          <p class="footer-title">Legal Stuff</p>
+          <ul>
+            <li><a class="footer-link" href="">Disclaimer</a></li>
+            <li><a class="footer-link" href="">Financing</a></li>
+            <li><a class="footer-link" href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-form-wrap">
+          <p class="footer-title footer-title-form">knowing you're always on the best energy deal.
+          </p>
+          <form class="footer-form">
+            <div class="footer-input-wrap">
+              <svg class="footer-form-icon" width="18" height="28">
+                <symbol id="icon-mobile-screen" viewBox="0 0 21 32">
+                  <use href="./image/icons.svg#icon-mobile-screen"></use>
+              </svg>
+              <input placeholder="Enter your phone number" type="email" class="footer-form-input" />
+            </div>
+            <button type="submit" class="footer-form-btn">Sign up Now</button>
+          </form>
+        </div>
+      </div>
+      <p class="footer-desk">Made With Love By Figmaland All Right Reserved</p>
+    </div>
   </footer>
 </body>
 
