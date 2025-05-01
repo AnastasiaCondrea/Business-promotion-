@@ -42,5 +42,13 @@
     <symbol id="icon-mobile-screen" viewBox="0 0 21 32">
       <path fill="#02897a" style="fill: var(--color1, #02897a)" d="M16.935 2.286h-13.299c-1.377 0-2.494 1.152-2.494 2.571v22.286c0 1.42 1.117 2.571 2.494 2.571h13.299c1.377 0 2.494-1.152 2.494-2.571v-22.286c0-1.42-1.117-2.571-2.494-2.571zM12.779 26.238c0 0.52-0.374 0.905-0.831 0.905h-3.371c-0.41 0-0.784-0.386-0.784-0.857s0.374-0.857 0.831-0.857h3.325c0.457 0 0.831 0.386 0.831 0.809zM16.104 22.857h-11.636v-17.143h11.636v17.143z"></path>
     </symbol>
+    <symbol id="icon-menu" viewBox="0 0 29 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968" d="M3.613 16h21.677"></path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968" d="M3.613 8h21.677"></path>
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968" d="M3.613 24h21.677"></path>
+    </symbol>
+    <symbol id="icon-customer-btn" viewBox="0 0 45 32">
+      <path d="M42.17 0.638c-0.834-0.851-2.188-0.851-3.022 0l-25.606 26.102-9.843-10.033c-0.835-0.851-2.188-0.851-3.023 0s-0.835 2.23 0 3.081l11.354 11.574c0.834 0.851 2.189 0.85 3.023 0l27.117-27.643c0.835-0.851 0.835-2.23 0-3.081z"></path>
+    </symbol>
   </defs>
 </svg>
