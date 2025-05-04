@@ -62,7 +62,7 @@ button {
     margin: 0 auto;
   }
 }
-/* Header */
+/* Header ---------------------------------------------------------------------------*/
 
 .header-container {
   display: flex;
@@ -186,7 +186,7 @@ button {
   line-height: 0;
 }
 
-/*HERO */
+/*HERO -------------------------------------------------------------------------------*/
 .hero {
   padding-top: 29px;
   padding-bottom: 50px;
@@ -291,7 +291,7 @@ button {
 .hero-btn-watch-icon {
   fill: currentColor;
 }
-/* PRODUCT */
+/* PRODUCT ---------------------------------------------------------------------------*/
 .product {
   padding: 50px 0;
 }
@@ -392,7 +392,7 @@ button {
   display: block;
 }
 
-/* MANAGEMENT */
+/* MANAGEMENT ---------------------------------------------------------------------*/
 
 .management {
   padding: 50px 0;
@@ -468,7 +468,7 @@ button {
   line-height: 1.62;
 }
 
-/* CUSTOMER */
+/* CUSTOMER ---------------------------------------------------------------------------*/
 
 .customer {
   padding: 50px 0;
@@ -572,7 +572,7 @@ button {
   background-color: #4d8dff;
 }
 
-/* COLLABORATIVE------------------------------------*/
+/* COLLABORATIVE-------------------------------------------------------------*/
 .collaborative {
   padding-top: 50px;
   padding-bottom: 120px;
@@ -652,7 +652,7 @@ button {
   line-height: 1.62;
 }
 
-/*PROCESS-----------------------*/
+/*PROCESS------------------------------------------------------------------*/
 .process {
   margin-top: 75px;
   margin-bottom: 50px;
@@ -752,7 +752,7 @@ button {
   border: none;
 }
 
-/* CONTENT STRATEGIES */
+/* CONTENT STRATEGIES --------------------------------------------------------------*/
 
 .content {
   padding-top: 50px;
@@ -821,7 +821,7 @@ button {
   color: #02897a;
 }
 
-/* PRICE TABLE */
+/* PRICE TABLE --------------------------------------------------------------------*/
 
 .price {
   padding-bottom: 50px;
@@ -979,7 +979,7 @@ button {
   background-color: #fff;
 }
 
-/* WHAT CLIENTS SAY */
+/* WHAT CLIENTS SAY ---------------------------------------------------------------*/
 
 .what {
   padding: 50px 0;
@@ -1063,7 +1063,7 @@ button {
   color: #252b42;
 }
 
-/* COMPANY */
+/* COMPANY ------------------------------------------------------------------*/
 
 .company {
   padding: 50px 0;
@@ -1127,7 +1127,7 @@ button {
   background-color: #fff;
 }
 
-/*FOOTER */
+/*FOOTER -------------------------------------------------------------------------*/
 .footer {
   padding-top: 50px;
   padding-bottom: 22px;
